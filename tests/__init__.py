@@ -1,0 +1,1 @@
+"""QEncode: tests module"""

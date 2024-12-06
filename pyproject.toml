@@ -1,0 +1,22 @@
+[project]
+name = "qencode"
+version = "0.1.0"
+description = "Encoding independent Optimization Problem Formulation for Quantum Computing"
+authors = [
+    {name = "GiulioPN", email = "pngiulio@gmail.com"},
+]
+dependencies = [
+    "sympy>=1.13.3",
+    "pytest>=8.3.4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
