@@ -7,7 +7,6 @@ from qencode.tsp.cost_function import build_cost_function
 
 
 class TestCostFunctionBinary(unittest.TestCase):
-
     def test_cost_function_3d(self):
         matrix = [[0, 2, 3], [2, 0, 1], [3, 1, 0]]
 

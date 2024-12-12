@@ -7,7 +7,6 @@ from qencode.io.serialization import InputTSPData, write_cost_function
 from qencode.tsp.cost_function import build_cost_function
 
 if __name__ == "__main__":
-
     input_tsp_data = InputTSPData.from_json("samples/data_3d.json")
 
     vars = build_binary_variables(len(input_tsp_data.distance_matrix))

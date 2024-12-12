@@ -8,7 +8,6 @@ Delta = Callable[[int, int | list], Any] | Any
 
 
 def build_cost_function(data: list[list[int]], vars: list, apply_delta: Delta) -> Any:
-
     n_nodes = len(data)
 
     # Encode the cost function
