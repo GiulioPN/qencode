@@ -8,4 +8,14 @@ Encoded supported methods:
 
 ## Install  
 
-`pip install .`
+Install with pip:
+
+`pip install -e .`
+
+Install with pdm, using lock file:  
+
+```bash
+cd qencode
+pdm install 
+eval $(pdm venv activate)
+```
